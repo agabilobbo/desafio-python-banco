@@ -120,9 +120,6 @@ O sistema segue um fluxo simples, onde os clientes e suas contas são registrado
    python main.py
    ```
 
-Aqui está a seção "Uso" reformulada em formato de tabela:
-
----
 
 ### Uso
 
@@ -154,6 +151,3 @@ Contribuições são sempre bem-vindas. Para contribuir, siga os seguintes passo
 
 Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
----
-
-Esse README fornece uma visão detalhada do sistema bancário POO, explicando suas funcionalidades, estrutura e como usá-lo.
