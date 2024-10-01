@@ -95,7 +95,7 @@ O projeto está organizado em módulos e classes para separar responsabilidades 
 
 | **Passo**                          | **Comando**                                     |
 |------------------------------------|-------------------------------------------------|
-| 1. **Clone o repositório**        | ```bash git clone https://github.com/seuusuario/banco_poo.git ``` |
+| 1. **Clone o repositório**        | ```bash git clone https://github.com/agabilobbo/banco_poo.git ``` |
 | 2. **Navegue até o diretório**    | ```bash cd banco_poo ```                        |
 | 3. **Execute o arquivo principal** | ```bash python main.py ```                      |
 
