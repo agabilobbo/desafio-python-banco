@@ -1,51 +1,61 @@
-# Sistema Bancário em Python
-Este repositório contém dois sistemas bancários desenvolvidos em Python com diferentes níveis de complexidade, usando conceitos básicos e avançados da linguagem.
+# 🏦 Projeto de Sistema Bancário em Python
 
-## Estrutura do Repositório
-O repositório está organizado da seguinte forma:
+Este repositório contém **dois sistemas bancários** desenvolvidos em Python, abordando níveis distintos de complexidade. Eles foram implementados usando conceitos que variam desde programação básica até Programação Orientada a Objetos (POO).
 
-- /sistema_bancario_basico: Contém o código para o sistema bancário com funcionalidades básicas, utilizando variáveis e condicionais.
-- /sistema_bancario_avancado ou /banco_poo: Contém o código de um sistema bancário mais elaborado, implementado com Programação Orientada a Objetos (POO), herança e classes abstratas.
+## 📂 Estrutura do Repositório
 
-## Funcionalidades
-### Sistema Bancário Básico
-Este sistema bancário foi implementado utilizando uma estrutura simples com variáveis e condicionais. Ele permite executar as seguintes operações:
+- **📂 /sistema_bancario_basico**: Sistema simples utilizando variáveis e condicionais.
+- **📂 /banco_poo**: Sistema mais avançado usando POO, com herança e classes abstratas.
 
-- Depósito: Permite adicionar valores ao saldo de uma conta.
-- Saque: Permite realizar saques, verificando o saldo disponível e o número de saques permitidos.
-- Exibir Extrato: Exibe todas as transações realizadas (depósitos e saques).
-- Sair: Encerra o programa.
+## 🔑 Funcionalidades
 
-## Sistema Bancário Avançado (POO)
-Este sistema bancário utiliza os conceitos de Programação Orientada a Objetos (POO), com classes abstratas e herança para um gerenciamento mais robusto de clientes e contas. As funcionalidades incluem:
+### 🪙 Sistema Bancário Básico
+O sistema bancário básico oferece operações essenciais com uma implementação simplificada. As principais funcionalidades são:
 
-- Criação de Usuários: Permite a criação de novos usuários com dados como nome, CPF e data de nascimento.
-- Criação de Contas: Cria contas associadas a um usuário e gerencia múltiplas contas.
-- Depósitos e Saques: Implementa depósitos e saques, validando condições como saldo e limite de saques diários.
-- Consulta de Extrato: Exibe um histórico detalhado de transações (depósitos e saques).
-- Listagem de Contas: Exibe todas as contas criadas no sistema.
+| Função            | Descrição                                                                                  |
+|-------------------|--------------------------------------------------------------------------------------------|
+| 💰 **Depósito**    | Adiciona valor ao saldo da conta.                                                          |
+| 🏧 **Saque**       | Retira dinheiro, verificando se o saldo é suficiente e respeitando o limite diário de saques. |
+| 🧾 **Extrato**     | Mostra todas as transações (depósitos e saques) realizadas durante a sessão.               |
+| 🚪 **Sair**        | Finaliza o programa.                                                                       |
 
-## Requisitos
-Para executar ambos os sistemas, você precisará ter o Python instalado em sua máquina. Certifique-se de ter uma versão superior à 3.6 para evitar problemas de compatibilidade.
+### 🏦 Sistema Bancário Avançado (POO)
+Este sistema é uma evolução do básico, utilizando Programação Orientada a Objetos para criar uma estrutura mais robusta. As funcionalidades incluem:
 
-### Instruções de Execução
-1.Clone o repositório:
+| Função                   | Descrição                                                                              |
+|--------------------------|----------------------------------------------------------------------------------------|
+| 👤 **Criação de Usuários**| Permite cadastrar novos usuários com nome, CPF e data de nascimento.                   |
+| 🏦 **Criação de Contas**  | Associa uma ou mais contas ao usuário, gerenciando contas múltiplas.                    |
+| 💰 **Depósitos e Saques** | Realiza transações financeiras com verificações de saldo e limites diários de saque.   |
+| 🧾 **Consulta de Extrato**| Exibe um extrato detalhado das transações realizadas na conta.                         |
+| 📋 **Listagem de Contas** | Mostra todas as contas criadas no sistema e seus detalhes.                             |
 
->>git clone https://github.com/agabilobbo/sistema-bancario.git
+## 🔧 Requisitos
 
-2.Navegue até o diretório correspondente:
+Certifique-se de ter o **Python 3.6+** instalado na sua máquina antes de executar os sistemas.
 
-- Para o sistema básico: **cd sistema_bancario_basico**
-- Para o sistema avançado: **cd banco_poo**
+## ▶️ Como Executar
 
-3.Execute o arquivo Python:
->> python main.py
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/agabilobbo/sistema-bancario.git
+   ```
 
-### Melhorias Futuras
+2. **Acesse o diretório**:
+   - Para o sistema básico: `cd sistema_bancario_basico`
+   - Para o sistema avançado: `cd sistema_bancario_avancado` ou `cd banco_poo`
 
-_ Adicionar persistência de dados com banco de dados ou arquivos.
-- Implementar interface gráfica ou API.
-- Expandir as funcionalidades de transações e relatórios.
+3. **Execute o programa**:
+   ```bash
+   python main.py
+   ```
 
-### Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para abrir pull requests ou reportar problemas na seção de "Issues".
+## 🔮 Melhorias Futuras
+
+- 💾 **Persistência de Dados**: Implementar salvamento de dados usando bancos de dados ou arquivos.
+- 🎨 **Interface Gráfica**: Adicionar uma interface gráfica (GUI) para facilitar o uso.
+- 📊 **Relatórios Avançados**: Incluir relatórios financeiros detalhados e gráficos para análise de transações.
+
+## 💡 Contribuições
+
+Contribuições são sempre bem-vindas! Abra uma **issue** para relatar bugs ou faça um **pull request** com suas melhorias. Vamos construir juntos!
